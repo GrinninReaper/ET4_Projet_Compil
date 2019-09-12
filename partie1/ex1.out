@@ -1,0 +1,6 @@
+ --- Le code généré est:
+PUSHI 3
+PUSHI 2
+PUSHI 6
+MUL
+ADD

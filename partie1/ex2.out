@@ -1,0 +1,14 @@
+PUSHI 3
+PUSHG 0
+PUSHI 2
+MUL
+ --- Le code généré est:
+PUSHG 0
+PUSHG 1
+ADD
+PUSHS "le resultat est: "
+WRITES
+WRITEI
+PUSHS "\n"
+WRITES
+STOP

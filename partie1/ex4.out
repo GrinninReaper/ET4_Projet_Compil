@@ -1,0 +1,28 @@
+PUSHI 3
+PUSHI 5
+PUSHG 0
+PUSHG 1
+SUP
+JZ eti0
+PUSHG 1
+JUMP eti1
+eti0: PUSHI 2
+PUSHG 0
+MUL
+eti1: NOP
+ --- Le code généré est:
+PUSHG 2
+PUSHI 6
+EQUAL
+NOT
+JZ eti2
+PUSHI 0
+JUMP eti3
+eti2: PUSHI 1
+eti3: NOP
+PUSHS "le resultat est: "
+WRITES
+WRITEI
+PUSHS "\n"
+WRITES
+STOP

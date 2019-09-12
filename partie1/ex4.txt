@@ -1,0 +1,4 @@
+x := 3;
+y := 5;
+z := if x > y then y else 2*x;
+begin if z <> 6 then 0 else 1 end
